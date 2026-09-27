@@ -1,0 +1,21 @@
+# Requirements for Group7_CS6502_Project.ipynb
+# Developed and run on Databricks Community Edition (Serverless compute,
+# environment version 4). Exact package versions were not pinned in the
+# original Databricks environment, so the ranges below are the minimum
+# versions known to support the APIs used in the notebook
+# (VectorAssembler/StandardScaler pipelines, window functions, sklearn
+# classifiers used in this project, etc.). Pin exact versions with
+# `pip freeze > requirements.lock.txt` once you've confirmed a working
+# environment, if you want fully reproducible installs.
+
+pyspark>=3.5.0
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Only needed if running the notebook via Jupyter/VS Code instead of
+# directly inside a Databricks notebook environment:
+jupyter>=1.0.0
+notebook>=7.0.0
